@@ -59,5 +59,8 @@
     <Image Include="res\inject.ico">
       <Filter>资源文件</Filter>
     </Image>
+    <Image Include="C:\Users\Administrator\Desktop\IDR_INJECT.ico">
+      <Filter>资源文件</Filter>
+    </Image>
   </ItemGroup>
 </Project>

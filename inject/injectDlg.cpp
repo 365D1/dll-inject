@@ -20,7 +20,7 @@
 CinjectDlg::CinjectDlg(CWnd* pParent /*=nullptr*/)
 	: CDialogEx(IDD_INJECT_DIALOG, pParent)
 {
-	m_hIcon = AfxGetApp()->LoadIcon(IDR_MAINFRAME);
+	m_hIcon = AfxGetApp()->LoadIcon(IDR_INJECT);
 }
 
 void CinjectDlg::DoDataExchange(CDataExchange* pDX)

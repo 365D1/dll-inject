@@ -207,6 +207,7 @@
     <None Include="res\inject.rc2" />
   </ItemGroup>
   <ItemGroup>
+    <Image Include="C:\Users\Administrator\Desktop\IDR_INJECT.ico" />
     <Image Include="res\inject.ico" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
