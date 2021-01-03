@@ -4,21 +4,19 @@
 
 #pragma once
 
-
-// CinjectDlg 对话框
-class CinjectDlg : public CDialogEx
-{
-// 构造
+class CinjectDlg : public CDialogEx {	
 public:
-	CinjectDlg(CWnd* pParent = nullptr);	// 标准构造函数
+	// 构造函数
+	CinjectDlg(CWnd* pParent = nullptr);
 
 // 对话框数据
 #ifdef AFX_DESIGN_TIME
 	enum { IDD = IDD_INJECT_DIALOG };
 #endif
 
-	protected:
-	virtual void DoDataExchange(CDataExchange* pDX);	// DDX/DDV 支持
+protected:
+	// DDX/DDV 支持
+	virtual void DoDataExchange(CDataExchange* pDX);
 
 
 // 实现

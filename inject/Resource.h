@@ -4,7 +4,6 @@
 //
 #define IDD_INJECT_DIALOG               102
 #define IDR_MAINFRAME                   128
-#define IDR_INJECT                      130
 
 // Next default values for new objects
 // 
